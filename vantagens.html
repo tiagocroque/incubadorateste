@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="Style.css"
+    <meta charset="UTF-8">
+    <title>Incubadora de empresa</title>
+</head>
+<body>
+  <link rel="stylesheet" href="Style.css">
+  <body>
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+      <button onclick="w3_close()" id="btn-muda-cor" class="w3-bar-item w3-large">☰</button>
+      <a id="btn-muda-cor" href="index.html" class="w3-bar-item w3-button">O que é Incubadora?</a>
+      <a id="btn-muda-cor"href="tiposDeIncubadoras.html" class="w3-bar-item w3-button">Tipos de incubadoras</a>
+      <a id="btn-muda-cor"href="faseDeIncubacao.html" class="w3-bar-item w3-button">Fases de incubação</a>
+      <a id="btn-muda-cor"href="vantagens.html" class="w3-bar-item w3-button">Vantagens</a>
+    </div>
+    <div class="w3-teal">
+      <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+      <div class="w3-container">
+        <h1>Vantagens</h1>
+    </div>
+  </div>
+
+
+  <script>
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+  <div class="grid-vantagens">
+  <div class="grid-item">
+    <ul id="p_principal">
+      <li id="li-negrito">Suporte na elaboração de projetos promissores</li>
+      <p id="p_principal">As incubadoras de empresas têm grande influência na elaboração de projetos que podem oferecer oportunidades promissoras, como através da intermediação entre:</p>
+      <ul id="p_principal">
+        <li>Empresas</li>
+        <li>Investidores</li>
+        <li>Sócios</li>
+        <li>Fornecedores</li>
+        <li>Compradores</li>
+      </ul>
+      <li id="li-negrito">Expansão do mercado</li>
+      <p id="p_principal">Incubadoras possibilitam a expansão do mercado através de networking, podendo envolver empresas dos variados setores, universidades e até mesmo órgãos governamentais.</p>
+      <li id="li-negrito">Espaço físico adequado</li>
+      <p id="p_principal">Por valores substancialmente menores, as incubadoras podem fornecer espaço físico para que as empresas possam realizar determinadas atividades comerciais.</p>
+      <li id="li-negrito">Consultoria especializada</li>
+      <p id="p_principal">Incubadoras de empresas fornecem serviço de consultoria especializada para os mais variados setores comerciais ativos no mercado.</p>
+    </ul>
+  </div>
+  <div class="grid-item">
+    <ul id="p_principal">
+      <li id="li-negrito">Possibilidade de financiamento</li>
+      <p id="p_principal">Devido à sua vasta rede de contatos, incubadoras de empresas facilitam o financiamento que um determinado negócio pode precisar, além de atrair possíveis investidores.</p>
+      <li id="li-negrito">Aprimoramento de habilidades e qualificações</li>
+      <p id="p_principal">Todo o tipo de conhecimento que o empreendedor precisa em uma das fases cruciais de sua empresa pode ser proporcionado por uma incubadora:</p>
+      <ul id="p_principal">
+        <li>Cursos profissionalizantes;</li>
+        <li>Palestras;</li>
+        <li>Treinamentos;</li>
+        <li>Capacitação de habilidades específicas;</li>
+        <li>Todo o tipo de conhecimento que a empresa pode precisar para se desenvolver.</li>
+      </ul>
+      <li id="li-negrito">Acompanhamento e orientação</li>
+      <p id="p_principal">A incubadora oferece um serviço de acompanhamento e orientação durante todo o planejamento, desenvolvimento e execução de projetos da empresa, reduzindo as chances de que ocorram falhas durante o processo.</p>
+    </ul>
+  </div>
+</div>
+  <footer>
+    <small> Projeto Tiago Cesconeto Roque | Digital House | Facebook </small>
+  </footer>
+</body>
+</html>

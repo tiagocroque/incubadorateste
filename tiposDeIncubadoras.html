@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="Style.css"
+    <meta charset="UTF-8">
+    <title>Incubadora de empresa</title>
+</head>
+<body>
+  <link rel="stylesheet" href="Style.css">
+  <body>
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+      <button onclick="w3_close()" id="btn-muda-cor" class="w3-bar-item w3-large">☰</button>
+      <a id="btn-muda-cor" href="index.html" class="w3-bar-item w3-button">O que é Incubadora?</a>
+      <a id="btn-muda-cor"href="tiposDeIncubadoras.html" class="w3-bar-item w3-button">Tipos de incubadoras</a>
+      <a id="btn-muda-cor"href="faseDeIncubacao.html" class="w3-bar-item w3-button">Fases de incubação</a>
+      <a id="btn-muda-cor"href="vantagens.html" class="w3-bar-item w3-button">Vantagens</a>
+    </div>
+    <div class="w3-teal">
+      <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+      <div class="w3-container">
+        <h1>Tipos de incubadoras</h1>
+    </div>
+  </div>
+  <script>
+  function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+  }
+
+  function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+  }
+  </script>
+  <div class ="grid-box">
+    <div class="grid-item">
+      <h3 id="h3_tipos">Incubadora de Base Tecnológica</h3>
+      <img src="http://www.unesc.net/portal/resources/assets/template/53/images/Iparque_photo.png" alt="Incubadora Base Tecnológica">
+      <p id="p_principal">As incubadoras de base tecnológica são organizações que abrigam empresas em surgimento inicial e geralmente apresentam características de pesquisa cientifica, cujo projeto implica em inovação. Além disso, essas incubadoras oferecem espaço e serviços que são subsidiados por elas mesmas, para um favorecimento empresarial e para o desenvolvimento de produtos ou processos de alto conteúdo científico e tecnológico nas áreas de informática, biotecnologia, química fina, mecânica de precisão, etc</p>
+    </div>
+    <div class="grid-item">
+      <h3 id="h3_tipos">Incubadora de Setores Tradicionais</h3>
+      <img src="https://www.patosemdestaque.com.br/fotos/noticias/0b52e6a9942228d2238265ce40f6724e_E.jpg" alt="Incubadora Base Tecnológica">
+      <p id="p_principal">As incubadoras de base tradicional abrigam empresas que estão ligadas aos setores tradicionais da economia, sendo essas incubadoras que detêm tecnologia amplamente difundida e realmente agregam valor nos seus processos, produtos ou serviços por meio de um incremento em seu nível tecnológico.</p>
+      <p id="p_principal">Devem estar comprometidas com a absorção ou o desenvolvimento de novas tecnologias.</p>
+    </div>
+    <div class="grid-item">
+      <h3 id="h3_tipos">Incubadoras de Empresas Mistas</h3>
+      <img src="https://scontent.fpoa1-1.fna.fbcdn.net/v/t1.0-9/58586605_323138105044164_5553815982755020800_n.png?_nc_cat=107&_nc_sid=6e5ad9&_nc_ohc=EQqJZ-cUj1wAX8BuQlW&_nc_ht=scontent.fpoa1-1.fna&oh=1d52cb8b1b3d1f15c5148ed765de6641&oe=5EE7FDE0" alt="Incubadora Base Tecnológica">
+      <p id="p_principal">São aquelas que abrigam empresas dos dois tipos, ou seja, de base tecnológica e de setores tradicionais</p>
+      <p id="p_principal">A incubadora tradicional tem como objetivo apoiar empreendedores que pretendem atuar em setores tradicionais da economia. A incubadora de base tecnológica tem o objetivo de apoiar empresas que produzem produtos e serviços inovadores e a incubadora mista tem o objetivo de apoiar empreendimentos de qualquer tipo.</p>
+    </div>
+  </div>
+  <footer>
+    <small> Projeto Tiago Cesconeto Roque | Digital House | Facebook </small>
+  </footer>
+</body>
+</html>
